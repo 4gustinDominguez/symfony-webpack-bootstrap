@@ -16,4 +16,13 @@ class DefaultController extends AbstractController
             'controller_name' => 'DefaultController',
         ]);
     }
+
+    /**
+     * @Route("/theme", name="theme")
+     */
+    public function theme()
+    {
+        return $this->render('theme/base_theme.html.twig');
+    }
+
 }

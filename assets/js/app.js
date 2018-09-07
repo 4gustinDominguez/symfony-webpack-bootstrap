@@ -3,7 +3,7 @@ import $ from 'jquery';
 //import 'bootstrap-sass';//v3.*.*
 import 'bootstrap';//v4.*
 
-//import '../js/sb-admin.min';
+import '../theme/js/sb-admin.min';
 
 import '../css/app.scss';
 
